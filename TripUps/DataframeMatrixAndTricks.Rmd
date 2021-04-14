@@ -286,3 +286,5 @@ tune.out <- tune(svm, Purchase~ ., data=OJ[train,], kernel='polynomial',
 summary(tune.out)
 ```
 
+### If using tune.SVM()  Don't use ranges=list();  directly enter costs=c() etc. into the parameters.  
+
